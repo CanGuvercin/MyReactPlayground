@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom'; // varsa
+import { Link } from 'react-router-dom'; 
+import miniLogo from '../../assets/MicroLogo.png';
 
 export default function Logo() {
   return (
     <div className="logo">
       <Link to="/">
-        🛍️ <strong>ShopZone</strong>
+        <img src={miniLogo}/><strong>ShopZone</strong>
       </Link>
     </div>
   );
