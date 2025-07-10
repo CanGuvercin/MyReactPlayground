@@ -5,7 +5,7 @@ export default function Logo() {
   return (
     <div className="logo">
       <Link to="/">
-        <img src={miniLogo}/><strong>ShopZone</strong>
+        <img src={miniLogo}/>
       </Link>
     </div>
   );

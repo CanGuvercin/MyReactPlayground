@@ -67,15 +67,4 @@ button:focus-visible {
   }
 }
 
-#mini-logo {
-  width: 191px;
-  height: 34px;
-  object-fit: contain;
-  margin-right: 1rem;
-  transition: transform 0.3s ease;
-}
 
-#mini-logo:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
